@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    @yield('head')
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +50,12 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
                 </ul>
-
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/about') }}">About</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/services') }}">Services</a></li>
+                </ul>
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
@@ -71,6 +77,8 @@
             </div>
         </div>
     </nav>
+    <img src="https://i.imgsafe.org/5636b888ed.png" class="img-rounded center-block" width="90%" height="400px">
+    {{-- <div style="Height:400px;Width:100%;background-image:url('{{ asset('https://i.imgsafe.org/5636b888ed.png') }}');background-repeat: no-repeat;border-radius: 5px;position:relative"></div> --}}
 
     @yield('content')
 

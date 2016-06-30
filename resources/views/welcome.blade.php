@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@section('head')
+
+    <link rel="stylesheet" type="text/css" href="/public/css/app.css">
+
+@endsection
+
 @section('content')
 <div class="container">
     <div class="row">
@@ -8,7 +14,9 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Your Application's Landing Page.
+
+
+
                 </div>
             </div>
         </div>
