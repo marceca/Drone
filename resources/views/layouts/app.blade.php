@@ -14,6 +14,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
@@ -41,7 +42,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                    UP Here Productions
                 </a>
             </div>
 
@@ -51,10 +52,13 @@
                     <li><a href="{{ url('/home') }}">Home</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/about') }}">About</a></li>
+                    <li><a href="{{ url('/services') }}">Services</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/services') }}">Services</a></li>
+                    <li><a href="{{ url('/gallery') }}">Gallery</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/about') }}">About</a></li>
                 </ul>
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
@@ -79,6 +83,8 @@
     </nav>
     <img src="https://i.imgsafe.org/5636b888ed.png" class="img-rounded center-block" width="90%" height="400px">
     {{-- <div style="Height:400px;Width:100%;background-image:url('{{ asset('https://i.imgsafe.org/5636b888ed.png') }}');background-repeat: no-repeat;border-radius: 5px;position:relative"></div> --}}
+
+    <hr>
 
     @yield('content')
 

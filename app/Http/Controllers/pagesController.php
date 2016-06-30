@@ -15,4 +15,9 @@ class pagesController extends Controller
     public function services(){
         return view('pages.services');
     }
+
+    public function gallery(){
+
+        return view('pages.gallery');
+    }
 }
