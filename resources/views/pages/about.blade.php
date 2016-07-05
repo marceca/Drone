@@ -8,9 +8,7 @@
                 <div class="panel-heading" style="text-align: center">About Us</div>
 
                 <div class="panel-body">
-                    This is where you can add all your favorite bull shit! This is where you can add all your favorite bull shit! This is where you can add all your favorite bull shit!
-                    This is where you can add all your favorite bull shit! This is where you can add all your favorite bull shit! This is where you can add all your favorite bull shit!
-                    This is where you can add all your favorite bull shit! This is where you can add all your favorite bull shit! This is where you can add all your favorite bull shit!
+
                 </div>
             </div>
         </div>

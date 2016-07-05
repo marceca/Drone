@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::auth();
-
 Route::get('/home', 'HomeController@index');
 
 Route::get('/about', 'pagesController@about');
@@ -24,3 +22,7 @@ Route::get('/about', 'pagesController@about');
 Route::get('/services', 'pagesController@services');
 
 Route::get('/gallery', 'pagesController@gallery');
+
+Route::get('/contacts', 'pagesController@contacts');
+
+Route::post('/submit', 'pagesController@contactSubmit');

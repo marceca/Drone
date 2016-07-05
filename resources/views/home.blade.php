@@ -8,7 +8,7 @@
                 <div class="panel-heading" style="text-align: center">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    maybe just delete this
                 </div>
             </div>
         </div>
