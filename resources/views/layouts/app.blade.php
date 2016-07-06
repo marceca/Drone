@@ -82,9 +82,9 @@
     {{-- <div style="Height:400px;Width:100%;background-image:url('{{ asset('https://i.imgsafe.org/5636b888ed.png') }}');background-repeat: no-repeat;border-radius: 5px;position:relative"></div> --}}
 
     <hr>
-
+    <div class="container">
     @yield('content')
-
+    </div>
     <hr>
 
     <footer>

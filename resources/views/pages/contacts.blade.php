@@ -118,7 +118,7 @@
                     </div>
                     <div class="form-group col-sm-3">
                         <label for="typeOfProject" class="control-label"><h6>Type of service:</h6></label>
-                        <select class="form-control" name="typeOfProject">
+                            <select class="form-control" name="typeOfProject">
                             <option value="" disabled selected>Select your option</option>
                             <option value="photography">Aerial Photography</option>
                             <option value="video">Aerial Videography</option>
