@@ -11,18 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'HomeController@home');
 
 Route::get('/about', 'pagesController@about');
 
 Route::get('/services', 'pagesController@services');
 
+
+
+
+/* GALLERY PAGE ROUTES */
 Route::get('/gallery', 'pagesController@gallery');
 
+Route::get('/photography', 'pagesController@photography');
+
+
+
+
+/* CONTACTS PAGE ROUTES */
 Route::get('/contacts', 'pagesController@contacts');
 
 Route::post('/submit', 'pagesController@contactSubmit');

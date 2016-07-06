@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @yield('head')
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,6 +25,8 @@
             margin-right: 6px;
         }
     </style>
+
+    @yield('head')
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
@@ -55,30 +56,47 @@
                     <li><a href="{{ url('/services') }}">Services</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/gallery') }}">Gallery</a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{url('/photography') }}">Photography</a></li>
+                            <li><a href="#">Videography</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/contacts') }}">Contacts</a></li>
+                    <li><a href="{{ url('/contacts') }}">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/about') }}">About</a></li>
+                    <li><a href="{{ url('/about') }}" >About</a></li>
                 </ul>
-
             </div>
         </div>
     </nav>
-    <img src="https://i.imgsafe.org/5636b888ed.png" class="img-rounded center-block" width="97%" height="400px">
+    <img src="images/droneheader.PNG" class="img-rounded center-block" width="97%" height="400px">
     {{-- <div style="Height:400px;Width:100%;background-image:url('{{ asset('https://i.imgsafe.org/5636b888ed.png') }}');background-repeat: no-repeat;border-radius: 5px;position:relative"></div> --}}
 
     <hr>
 
     @yield('content')
+
     <hr>
-    @yield('footer')
+
+    <footer>
+            <div class="col-lg-12">
+                <p>Copyright &copy; UpHere Productions 2016</p>
+            </div>
+    </footer>
 
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    @yield('footer')
 </body>
 </html>
