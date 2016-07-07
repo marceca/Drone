@@ -7,7 +7,7 @@
         padding:0 0 0 0;
         margin:0 0 0 0;
     }
-    ul li {
+    .pictures {
         list-style:none;
         margin-bottom:25px;
     }
@@ -25,55 +25,41 @@
 @stop
 
 @section('content')
-
-{{-- <div id="links">
-    <a href="images/imgur.jpg" title="imgur">
-        <img src="images/thumbnails/imgur.jpg" style="height:50px; width: 50px;" alt="alt">
-    </a>
-    <a href="images/fish.jpg" title="Apple">
-        <img src="images/thumbnails/fish.jpg" style="height:50px; width: 50px;" alt="Apple">
-    </a>
-    <a href="images/printer.jpg" title="Orange">
-        <img src="images/thumbnails/printer.jpg" style="height:50px; width: 50px;" alt="Orange">
-    </a>
-</div> --}}
-
-
 <ul class="first">
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/imgur.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/fish.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/printer.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/prefer.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/british.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/truck.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/pic.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/cat.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/eye.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/house.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/bear.jpg">
     </li>
-    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12">
+    <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xxs-12 pictures">
         <img src="images/superman.jpg">
     </li>
 </ul>

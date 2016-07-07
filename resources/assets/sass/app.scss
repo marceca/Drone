@@ -1,6 +1,16 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-
-body {
-  background-image: url('../public/images/drone.PNG');
+.btn-round-lg{
+  border-radius: 22.5px;
+}
+.btn-round{
+  border-radius: 17px;
+}
+.btn-round-sm{
+  border-radius: 15px;
+}
+.btn-round-xs{
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

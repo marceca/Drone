@@ -18,10 +18,15 @@ class pagesController extends Controller
         return view('pages.services');
     }
 
-    public function gallery(){
-
-        return view('pages.gallery');
+    public function pilot(){
+        return view('pages.pilot');
     }
+
+
+
+
+
+        /* CONTACTS */
 
     public function contacts(){
         return view('pages.contacts');
@@ -51,7 +56,21 @@ class pagesController extends Controller
         return view('pages.contacts');
     }
 
+
+
+
+
+        /* GALLERY */
+    public function gallery(){
+
+        return view('pages.gallery');
+    }
+
     public function photography(){
         return view('pages.photography');
+    }
+
+    public function videography(){
+        return view('pages.videography');
     }
 }

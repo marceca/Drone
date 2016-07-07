@@ -1,11 +1,15 @@
-body {
-  background-image: url("../images/drone.PNG");
-    height: 100%;
-    width: 100%;
-}
+.btn-round-lg {
+  border-radius: 22.5px; }
 
-.image {
-    background-image: url("../images/drone.PNG");
-}
+.btn-round {
+  border-radius: 17px; }
+
+.btn-round-sm {
+  border-radius: 15px; }
+
+.btn-round-xs {
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 /*# sourceMappingURL=app.css.map */

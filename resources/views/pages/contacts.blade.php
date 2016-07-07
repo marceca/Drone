@@ -10,12 +10,65 @@
     </ul>
 </div>
 @endif
-<div class="container" style="width:100%">
+
+<div class="">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="text-align: center"><h3>Contact us today!</h3></div>
+
+            <p>Phone number: (xxx)-xxx-xxxx</p>
+            <p>City: city</p>
+            <p>State: state</p>
+            <p>Address: address</p>
+            <p>Address: address</p>
+            <p>Address: address</p>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="text-align: center"><h3>Where you can find us!</h3></div>
+
+            <p>FACEBOOK LINK</p>
+            <p>TWITTER LINK</p>
+            <p>INSTAGRAM LINK</p>
+            <p>ANOTHER LINK</p>
+            <p>ANOTHER LINK</p>
+            <p>ANOTHER LINK</p>
+            <p>ANOTHER LINK</p>
+            <p>ANOTHER LINK</p>
+            <p>ANOTHER LINK</p>
+            <p>ANOTHER LINK</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <p style="text-align: center;">If you would like us to contact you then please fill out the form below. We will do our best to contact you today!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading" style="text-align: center"><h3>Let's talk about your project!</h3></div>
 
+
+
+
+                                {{-- FORM --}}
 
                 <form action="{{ url('/submit') }}" method="POST">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -130,8 +183,11 @@
                         <label for="aboutYourProject">About your project:</label>
                         <textarea class="form-control" name="aboutYourProject" placeholder="About your project"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-success center-block">Send Project Information</button>
+                    <button type="submit" class="btn btn-success center-block btn-round">Send Project Information</button>
                 </form>
+
+
+
             </div>
         </div>
     </div>

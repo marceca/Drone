@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>UP Here Productions!</title>
+    <title>UpHere Productions!</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -14,6 +14,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
@@ -57,20 +58,18 @@
                 </ul>
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="{{url('/photography') }}">Photography</a></li>
-                            <li><a href="#">Videography</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="{{ url('/photography') }}">Photography</a></li>
+                            <li><a href="{{ url('/videography') }}">Videography</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/contacts') }}">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/pilot') }}">Pilot</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/about') }}" >About</a></li>
@@ -79,7 +78,6 @@
         </div>
     </nav>
     <img src="images/droneheader.PNG" class="img-rounded center-block" width="97%" height="400px">
-    {{-- <div style="Height:400px;Width:100%;background-image:url('{{ asset('https://i.imgsafe.org/5636b888ed.png') }}');background-repeat: no-repeat;border-radius: 5px;position:relative"></div> --}}
 
     <hr>
     <div class="container">

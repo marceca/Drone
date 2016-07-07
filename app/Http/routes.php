@@ -19,6 +19,8 @@ Route::get('/about', 'pagesController@about');
 
 Route::get('/services', 'pagesController@services');
 
+Route::get('/pilot', 'pagesController@pilot');
+
 
 
 
@@ -26,6 +28,8 @@ Route::get('/services', 'pagesController@services');
 Route::get('/gallery', 'pagesController@gallery');
 
 Route::get('/photography', 'pagesController@photography');
+
+Route::get('/videography', 'pagesController@videography');
 
 
 
