@@ -25,7 +25,7 @@
         list-style:none;
     }
     a {
-        color: white;
+        color: black;
     }
 </style>
 @stop
@@ -33,7 +33,7 @@
 @section('content')
 <div class="col-md-6">
     <div class="panel panel-default">
-        <div class="panel-heading" style="text-align: center">Safety</div>
+        <div class="panel-heading" style="text-align: center"><h3>Safety</h3></div>
 
         <div class="panel-body">
             <p>UpHere is fully insured. We conduct our work responsibly and in accordance with current Federal
@@ -45,24 +45,24 @@
 
 <div class="col-md-6">
     <div class="panel panel-default">
-        <div class="panel-heading" style="text-align: center">Services</div>
+        <div class="panel-heading" style="text-align: center"><h3>Services</h3></div>
 
         <div class="panel-body">
             <ul>
                 <li>Real Estate</li>
                 <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Landscrape<span class="right-caret"></span></a>
-                    <ul class="dropdown-menu rightMenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Landscrape&nbsp;&nbsp;<span class="right-caret"></span></a>
+                    <ul class="dropdown-menu rightMenu" style="box-shadow: none; border: none;">
                         <li>Photography</li>
                         <li>Videography</li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="right-caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events&nbsp;&nbsp;<span class="right-caret" style="hover: underline;"></span></a>
                     <ul class="dropdown-menu rightMenu">
-                        <li>Community</li>
-                        <li>Sports</li>
-                        <li>Weddings</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Community</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Sports</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Weddings</li>
                     </ul>
                 </li>
                 <li>Construction</li>
@@ -71,7 +71,6 @@
         </div>
     </div>
 </div>
-
 @stop
 {{--
 

@@ -1,6 +1,15 @@
 @extends('layouts.app')
 
+
+@section('head')
+<style>
+    p:hover{
+        font-style: normal;
+    }
+</style>
+@stop
 @section('content')
+
 @if (count($errors) > 0)
 <div class="alert alert-danger">
     <ul>
@@ -22,8 +31,10 @@
             <p>Address: address</p>
             <p>Address: address</p>
             <p>Address: address</p>
-
-
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
         </div>
     </div>
 </div>
@@ -33,17 +44,24 @@
         <div class="panel panel-default">
             <div class="panel-heading" style="text-align: center"><h3>Where you can find us!</h3></div>
 
-            <p>FACEBOOK LINK</p>
-            <p>TWITTER LINK</p>
-            <p>INSTAGRAM LINK</p>
-            <p>ANOTHER LINK</p>
-            <p>ANOTHER LINK</p>
-            <p>ANOTHER LINK</p>
-            <p>ANOTHER LINK</p>
-            <p>ANOTHER LINK</p>
-            <p>ANOTHER LINK</p>
-            <p>ANOTHER LINK</p>
+                        {{-- USED BOOTSTRAP-SOCIAL --}}
 
+            <a href="http://facebook.com" class="btn btn-block btn-social btn-facebook" style="padding: 5px; color: #3B5998;">
+                <span class="fa fa-facebook"></span>
+                Facebook
+            </a>
+            <a href="http://twitter.com" class="btn btn-block btn-social btn-twitter" style="padding: 5;color: #55ACEE;">
+                <span class="fa fa-twitter"></span>
+                Twitter
+            </a>
+            <a href="http://www.instagram.com" class="btn btn-block btn-social btn-instagram" style="padding: 5px; color: #3F729B">
+                <span class="fa fa-instagram"></span>
+                Instagram
+            </a>
+            <a href="http://www.youtube.com" class="btn btn-block btn-social btn-youtube" style="padding: 5px; color: #CC181E">
+                <span class="fa fa-youtube"></span>
+                Youtube
+            </a>
         </div>
     </div>
 </div>
