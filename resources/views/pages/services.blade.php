@@ -31,9 +31,9 @@
 @stop
 
 @section('content')
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="panel panel-default">
-        <div class="panel-heading" style="text-align: center"><h3>Safety</h3></div>
+        <div class="panel-heading" style="text-align: center"><h3>Safety First</h3></div>
 
         <div class="panel-body">
             <p>UpHere is fully insured. We conduct our work responsibly and in accordance with current Federal
@@ -43,7 +43,7 @@
 </div>
 
 
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="panel panel-default">
         <div class="panel-heading" style="text-align: center"><h3>Services</h3></div>
 

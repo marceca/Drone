@@ -20,7 +20,7 @@
 </div>
 @endif
 
-<div class="">
+
     <div class="col-md-6">
         <div class="panel panel-default">
             <div class="panel-heading" style="text-align: center"><h3>Contact us today!</h3></div>
@@ -29,42 +29,36 @@
             <p>City: city</p>
             <p>State: state</p>
             <p>Address: address</p>
-            <p>Address: address</p>
-            <p>Address: address</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
             <p>&nbsp;</p>
         </div>
     </div>
-</div>
 
-<div class="">
-    <div class="col-md-6">
+
+    <div class="col-md-6" style="left: 27px;">
         <div class="panel panel-default">
-            <div class="panel-heading" style="text-align: center"><h3>Where you can find us!</h3></div>
+            <div class="panel-heading" style="text-align: center;"><h3>Where you can find us!</h3></div>
 
                         {{-- USED BOOTSTRAP-SOCIAL --}}
 
-            <a href="http://facebook.com" class="btn btn-block btn-social btn-facebook" style="padding: 5px; color: #3B5998;">
+            <a href="http://facebook.com" target="_blank" class="btn btn-block btn-social btn-facebook" style="padding: 5px; color: #3B5998;">
                 <span class="fa fa-facebook"></span>
                 Facebook
             </a>
-            <a href="http://twitter.com" class="btn btn-block btn-social btn-twitter" style="padding: 5;color: #55ACEE;">
+            <a href="http://twitter.com" target="_blank" class="btn btn-block btn-social btn-twitter" style="padding: 5px;color: #55ACEE;">
                 <span class="fa fa-twitter"></span>
                 Twitter
             </a>
-            <a href="http://www.instagram.com" class="btn btn-block btn-social btn-instagram" style="padding: 5px; color: #3F729B">
+            <a href="https://www.instagram.com/checkamar/" target="_blank" class="btn btn-block btn-social btn-instagram" style="padding: 5px; color: #3F729B">
                 <span class="fa fa-instagram"></span>
                 Instagram
             </a>
-            <a href="http://www.youtube.com" class="btn btn-block btn-social btn-youtube" style="padding: 5px; color: #CC181E">
+            <a href="http://www.youtube.com" target="_blank" class="btn btn-block btn-social btn-youtube" style="padding: 5px; color: #CC181E">
                 <span class="fa fa-youtube"></span>
                 Youtube
             </a>
         </div>
     </div>
-</div>
+
 
 <div class="container">
     <div class="row">
